@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Exercise4 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float basex;
+    public float highy;
+
+    private void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

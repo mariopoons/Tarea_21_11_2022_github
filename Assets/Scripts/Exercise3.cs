@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Exercise3 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int num;
+    private int cinco = 5;
+    private int result = 0;
+    private void Start()
     {
-        
-    }
+        if (result == num % cinco)
+        {
+            Debug.Log($"¡¡ES DIVISIBLE!!"); 
+        } 
+        else
+        {
+            Debug.Log($"¡¡NO ES DIVISIBLE!!");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
