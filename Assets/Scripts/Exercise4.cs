@@ -9,7 +9,15 @@ public class Exercise4 : MonoBehaviour
 
     private void Start()
     {
-        
+        if (basex * highy / 2 > 0)
+        { 
+            Debug.Log($"The are of {basex} is {basex * highy / 2}."); 
+        }
+        else
+        {
+            Debug.Log("We can't calculate the area.");
+        }
+
     }
 
 }

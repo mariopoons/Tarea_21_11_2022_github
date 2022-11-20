@@ -25,17 +25,17 @@ public class Exercise2 : MonoBehaviour
         {
             Debug.Log($"You were born in {year} so your Chinese zodiac is Monkey");
         }
-        else if (year == 1965 || year == 1974 || year == 1986 || year == 2001 || year == 2013)
+        else if (year == 1965 || year == 1977 || year == 1989 || year == 2001 || year == 2013)
         {
-            Debug.Log($"You were born in {year} so your Chinese zodiac is Sheep");
+            Debug.Log($"You were born in {year} so your Chinese zodiac is Snake");
         }
         else if (year == 1966 || year == 1978 || year == 1990 || year == 2002 || year == 2014)
         {
             Debug.Log($"You were born in {year} so your Chinese zodiac is Horse");
         }
-        else if (year == 1965 || year == 1977 || year == 1989 || year == 2001 || year == 2013)
+        else if (year == 1967 || year == 1979 || year == 1991 || year == 2003 || year == 2015)
         {
-            Debug.Log($"You were born in {year} so your Chinese zodiac is Snake");
+            Debug.Log($"You were born in {year} so your Chinese zodiac is Goat");
         }
         else if (year == 1964 || year == 1976 || year == 1988 || year == 2000 || year == 2012)
         {
@@ -53,7 +53,7 @@ public class Exercise2 : MonoBehaviour
         {
             Debug.Log($"You were born in {year} so your Chinese zodiac is Ox");
         }
-        else if (year == 1967 || year == 1979 || year == 1991 || year == 2003 || year == 2015)
+        else if (year == 1960 || year == 1972 || year == 1984 || year == 1996 || year == 2008)
         {
             Debug.Log($"You were born in {year} so your Chinese zodiac is Rat");
         }

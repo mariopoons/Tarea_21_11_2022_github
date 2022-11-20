@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class Exercise7 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string sumSubstractProductDivison;
+    public float x;
+    public float y;
+
+    private void Start()
     {
-        
+        if (sumSubstractProductDivison == "sum" || sumSubstractProductDivison == "Sum")
+        {
+            Debug.Log($"{x}+{y}={x + y}");
+        }
+        else if (sumSubstractProductDivison == "substract" || sumSubstractProductDivison == "Substract")
+        {
+            Debug.Log($"{x}-{y}={x - y}");
+        }
+        else if (sumSubstractProductDivison == "product" || sumSubstractProductDivison == "product")
+        {
+            Debug.Log($"{x}*{y}={x * y}");
+        }
+        else if (sumSubstractProductDivison == "division" || sumSubstractProductDivison == "Division")
+        {
+            Debug.Log($"{x}/{y}={x / y}");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

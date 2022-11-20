@@ -5,11 +5,11 @@ using UnityEngine;
 public class Exercise3 : MonoBehaviour
 {
     public int num;
-    private int cinco = 5;
+    private int five = 5;
     private int result = 0;
     private void Start()
     {
-        if (result == num % cinco)
+        if (result == num % five)
         {
             Debug.Log($"¡¡ES DIVISIBLE!!"); 
         } 

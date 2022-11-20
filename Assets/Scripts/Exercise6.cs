@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Exercise6 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float distanceTraveler;
+    public float totalDistance=20;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        if (distanceTraveler >= totalDistance)
+        {
+            Debug.Log($"Congratulations! You have completed the total distance with {distanceTraveler} meters.");
+        }
+        else
+        {
+            Debug.Log($"Oh… You still have {totalDistance-distanceTraveler} meters left to complete the total distance.");
+        }
     }
 }
