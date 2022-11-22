@@ -5,17 +5,15 @@ using UnityEngine;
 public class Exercise3 : MonoBehaviour
 {
     public int num;
-    private int five = 5;
-    private int result = 0;
     private void Start()
     {
-        if (result == num % five)
+        if (0 == num % 5)
         {
-            Debug.Log($"　ES DIVISIBLE!!"); 
+            Debug.Log($"　ES DIVISIBLE ENTRE CINCO!!"); 
         } 
         else
         {
-            Debug.Log($"　NO ES DIVISIBLE!!");
+            Debug.Log($"　NO ES DIVISIBLE ENTRE CINCO!!");
         }
 
     }

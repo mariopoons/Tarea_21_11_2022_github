@@ -5,18 +5,34 @@ using UnityEngine;
 public class Exercise10 : MonoBehaviour
 {
     public int year;
-    private int four = 4;
-    private int result = 0;
 
     private void Start()
     {
-        if (result == year % four)
+        if (0 == year % 4)
         {
-            Debug.Log($"Is a leap year");
+
+            if (0 == year % 100)
+            {
+
+
+                if (0 == year % 400)
+                {
+                    Debug.Log("Is a leap year");
+                }
+                else
+                {
+                    Debug.Log($"Is not a leap year");
+                }
+            }
+            else
+            {
+                Debug.Log("Is a leap year");
+            }
+
         }
         else
         {
-            Debug.Log($"is not a leap year");
+            Debug.Log("Is not a leap year");
         }
     }
 }
